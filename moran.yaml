@@ -37,7 +37,7 @@ algebra:
       - derive/^(.+);(\w)(\w)$/$1/      # 構詞可以用 YY
       # ZRM-SPECIFIC: 特殊優化：部分音節字極少，幾乎不參與構詞，則提升對應四碼字的優先級
       # ZRM-SPECIFIC: （僅對自然碼雙拼有效，其他雙拼方案需作對應修改）
-      - derive/^(.+);(bd|dw|df|dw|yl|rw)$/$1$2/  # ZRM-SPECIFIC
+      - derive/^(.+);(bd|dw|df|dw|yl|rw|fs|iw)$/$1$2/  # ZRM-SPECIFIC
       - erase/^(.+);(.+)$/              # 刪除原始編碼以加速檢索
 
 key_bindings:
@@ -61,6 +61,7 @@ key_bindings:
       - { when: composing, accept: "Control+x", toggle: extended_charset }
       - { when: has_menu, accept: "Control+Shift+0", toggle: std_opencc }
       - { when: has_menu, accept: "Control+i", toggle: chaifen }
+      - { when: has_menu, accept: "Control+period", toggle: pinyinhint }
 
   # 使用大寫字母追加輸入到上一個音節末尾
   moran_capital_for_last_syllable:
@@ -101,14 +102,13 @@ octagram:
     __patch:
       grammar:
         language: zh-hant-t-essay-bgw
-        #language: zh-hant-t-huayu-bgw
         collocation_max_length: 4
-        collocation_min_length: 2
+        collocation_min_length: 3
   enable_for_fixed:
     __patch:
       grammar:
         language: zh-hant-t-essay-bgc
-        collocation_max_length: 6
+        collocation_max_length: 4
         collocation_min_length: 2
       fixed/+:
         contextual_suggestions: true

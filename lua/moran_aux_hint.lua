@@ -12,7 +12,7 @@ end
 
 function Module.fini(env)
    env.enable_aux_hint = false
-   env.aux_hint_lookup = nil
+   collectgarbage()
 end
 
 function Module.func(translation, env)
@@ -26,16 +26,23 @@ function Module.func(translation, env)
    -- Retrieve aux codes from aux_table
    -- We use the 'genuine' candidate (before simplifier) here
    for cand in translation:iter() do
-      local cand_text = cand:get_genuine().text
+      if cand.type == "punct" then
+         yield(cand)
+      end
+
+      local gcand = cand:get_genuine()
+      local cand_text = cand.text
       local cand_len = utf8.len(cand_text)
       if cand_len ~= 1 then
          yield(cand)
          goto continue
       end
 
-      local codes = env.aux_table[cand_text]
-      if codes ~= nil then
-         cand:get_genuine().comment = table.concat(codes, " ")
+      local codes = env.aux_table[utf8.codepoint(cand_text)]
+      local codes_str = table.concat(codes, " ")
+      if codes and gcand.comment ~= codes_str then
+         local comment = codes_str .. gcand.comment
+         gcand.comment = comment
       end
       yield(cand)
 

@@ -39,6 +39,8 @@ switches:
     states: [ 🈚, 🈶 ]
   - name: chaifen
     states: [ 不拆, 扌斥 ]
+  - name: pinyinhint
+    states: [ 🔇, 🔊 ]
   - name: unicode_comment
     states: [ U關, U開 ]
   - options: [ std_opencc,  std_tw, std_hk, std_dzing ]
@@ -80,10 +82,11 @@ engine:
   filters:
     - lua_filter@*moran_charset_filter
     - lua_filter@*moran_reorder_filter
-    - lua_filter@*moran_aux_hint
     - lua_filter@*moran_quick_code_hint
+    - lua_filter@*moran_aux_hint
     - simplifier@emoji
     - simplifier@chaifen
+    - simplifier@pinyinhint
     - simplifier@std_hk
     - simplifier@std_tw
     - simplifier@std_dzing
@@ -166,6 +169,12 @@ chaifen:
   comment_form:
     - "xform/-/ /"
 
+pinyinhint:
+  option_name: pinyinhint
+  opencc_config: moran_pinyinhint.json
+  tips: char
+  show_in_comment: true
+
 emoji:
   opencc_config: moran_emoji.json
   option_name: emoji
@@ -243,8 +252,12 @@ punctuator:
 
 key_binder:
   import_preset: default
+  custom_bindings:
+    __append:
+      # 在這裏添加只在本方案中生效的按鍵綁定
   bindings:
     __patch:
+      - :/key_binder/custom_bindings?
       - moran:/key_bindings/moran_capital_for_last_syllable
       - moran:/key_bindings/moran_tab
       - moran:/key_bindings/moran_switches

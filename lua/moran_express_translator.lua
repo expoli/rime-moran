@@ -66,6 +66,7 @@ function top.init(env)
 
    -- quick_code_hint 開啓時出簡讓全不應該輸出 comment，簡碼會由 quick_code_hint 輸出。
    env.enable_quick_code_hint = env.engine.schema.config:get_bool("moran/enable_quick_code_hint") or false
+   env.quick_code_indicator_skip_chars = env.engine.schema.config:get_bool("moran/quick_code_indicator_skip_chars") or false
 
    -- output 狀態
    env.output_i = 0
@@ -109,7 +110,9 @@ function top.func(input, seg, env)
             end
          else
             for cand in fixed_res:iter() do
-               cand.comment = indicator
+               if utf8.len(cand.text) ~= 1 or not env.quick_code_indicator_skip_chars then
+                  cand.comment = indicator
+               end
                top.output(env, cand)
             end
          end
@@ -136,7 +139,7 @@ function top.func(input, seg, env)
       local user_ac = input:sub(input_len, input_len)
       local iter = top.raw_query_smart(env, real_input, seg, true)
       for cand in iter do
-         idx = cand.comment:find(user_ac)
+         local idx = cand.comment:find(user_ac)
          if idx ~= nil and ((input_len == 5) or (input_len == 7 and idx ~= 1)) then
             cand._end = cand._end + 1
             cand.preedit = input
@@ -221,8 +224,8 @@ function top.output(env, cand)
       -- drain injected cands
       local cands = env.output_injected_secondary
       env.output_injected_secondary = {}
-      for i, cand in pairs(cands) do
-         top.output(env, cand)
+      for i, c in pairs(cands) do
+         top.output(env, c)
       end
    end
 end

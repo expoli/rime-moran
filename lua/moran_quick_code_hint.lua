@@ -10,9 +10,7 @@ function Module.init(env)
    else
       env.quick_code_hint_reverse = nil
    end
-
    env.quick_code_indicator = env.engine.schema.config:get_string("moran/quick_code_indicator") or "⚡"
-   env.enable_aux_hint = env.engine.schema.config:get_bool("moran/enable_aux_hint")
 end
 
 function Module.fini(env)
@@ -28,10 +26,6 @@ function Module.func(translation, env)
    end
 
    -- Look up if the "geniune" candidate is already in the qc dict
-   local indicator = env.quick_code_indicator
-   if env.enable_aux_hint and indicator == "" then
-      indicator = "⚡"
-   end
    for cand in translation:iter() do
       local gcand = cand:get_genuine()
       local word = gcand.text
@@ -39,27 +33,30 @@ function Module.func(translation, env)
          yield(cand)
       else
          local all_codes = env.quick_code_hint_reverse:lookup(word)
+         local in_use = false
          if all_codes then
             local codes = {}
             for code in all_codes:gmatch("%S+") do
                if #code < 4 then
-                  table.insert(codes, code)
+                  if code == cand.preedit then
+                     in_use = true
+                  else
+                     table.insert(codes, code)
+                  end
                end
             end
-            -- the user is using the quick code right now
-            if #codes == 1 and codes[1] == cand.preedit then
+            if #codes == 0 and not in_use then
                goto continue
             end
-            if #codes > 0 then
-               -- do not show two indicators
-               if gcand.comment == indicator then
-                  local comment = gcand.comment .. table.concat(codes, " ")
-                  cand = ShadowCandidate(gcand, cand.type, word, comment)
-               else
-                  local comment = gcand.comment .. indicator .. table.concat(codes, " ")
-                  cand = ShadowCandidate(gcand, cand.type, word, comment)
-               end
+            local codes_hint = table.concat(codes, " ")
+            local comment = ""
+            if gcand.comment == env.quick_code_indicator then
+               -- Avoid double ⚡
+               comment = gcand.comment .. codes_hint
+            else
+               comment = gcand.comment .. env.quick_code_indicator .. codes_hint
             end
+            gcand.comment = comment
          end
          ::continue::
          yield(cand)
