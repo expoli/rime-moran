@@ -1,0 +1,472 @@
+# Rime dictionary
+# encoding: utf-8
+# author: expoli
+# 该词库基于永劫无间官网数据进行整理，并使用魔然脚本进行注音处理
+
+---
+name: moran.naraka
+version: "20240612"
+sort: by_weight
+columns:
+  - text
+  - code
+  - weight
+...
+
+暗域	an;oy yu;th	100
+奥义	ao;dm yi;di	100
+霸主	ba;yo vu;dw	100
+白甲	bl;pa jw;aa	100
+百炼洞	bl;ab lm;hd ds;dt	100
+白武	bl;pa wu;vy	100
+白武器	bl;pa wu;vy qi;kk	100
+白银	bl;pa yn;jg	100
+白玉	bl;pa yu;ad	100
+爆风炮	bk;hb fg;ji pk;hb	100
+爆风炮＆燃烧	bk;hb fg;ji pk;hb rj;hr uk;hy	100
+爆裂箭	bk;hb lx;yl jm;vq	100
+毕工淌	bi;bu gs;aa th;du	100
+壁虎游墙	bi;tb hu;hj yb;dz qd;th	100
+壁击枪	bi;tb ji;aa qd;mc	100
+匕首	bi;pg ub;qz	100
+别跟着我。	bx;dl gf;zg ve;yo wo;pd	100
+铂金	bo;jb jn;ra	100
+不能听命于自己者，就要受命于他人。	bu;ad ng;sb ty;kj my;re yu;aa zi;pa ji;ag ve;lo	100
+不认识我吗？	bu;ad rf;yr ui;yv wo;pd ma;km	100
+不祥之刃	bu;ad xd;uy vi;dd rf;dd	100
+不舟滩	bu;ad vb;pd tj;dn	100
+彩虹甲	cl;pc hs;ig jw;aa	100
+财迷	cl;bc mi;zm	100
+彩俑娃娃	cl;pc ys;ry wa;ng wa;ng	100
+藏宝阁	ch;cg bk;by ge;mg	100
+苍狼来了……	ch;cc lh;ql ll;am le;aa	100
+藏雨阁	ch;cg yu;ad ge;mg	100
+草原部落	ck;cz yr;ix bu;ek lo;cl	100
+长棍	ih;pd gp;mk	100
+长剑	ih;pd jm;da	100
+长剑无限连	ih;pd jm;da wu;ag xm;eg lm;zi	100
+长枪	ih;pd qd;mc	100
+长闪	ih;pd uj;mr	100
+长生寨	ih;pd ug;na vl;mb	100
+赤云之刃	ii;tb yp;es vi;dd rf;dd	100
+抽芯补天	ib;fy xn;cx bu;yb tm;ad	100
+出发出发！	iu;ck fa;ay iu;ck fa;ay	100
+船坟区	ir;vk ff;tw qu;ki	100
+船坟野点	ir;vk ff;tw ye;ly dm;hv	100
+穿甲弹	ir;xy jw;aa dj;gd	100
+大道玄妙，不可不闻。	da;ad dk;zu xr;wy mc;nu bu;ad ke;dk bu;ad wf;em	100
+大佛	da;ad fo;rf	100
+大麦	da;ad ml;fw	100
+大圣游	da;ad ug;ty yb;dz	100
+大圣游＆风卷云残	da;ad ug;ty yb;dz	100
+大师二段	da;ad ui;ab er;aa dr;ud	100
+大师三段	da;ad ui;ab sj;aa dr;ud	100
+大师四段	da;ad ui;ab si;aa dr;ud	100
+大小姐要去冒险了，谁有意见吗？	da;ad xc;ad jx;nq yk;xn qu;ts mk;oo xm;ea le;aa	100
+挡路者，斩！	dh;fd lu;zg ve;lo vj;ij	100
+道法自然尔……	dk;zu fa;dq zi;pa rj;hq er;dx	100
+倒塌大船	dk;rd ta;ty da;ad ir;vk	100
+等待并不可怕，可怕的是无尽的等待。	dg;vs dl;xs by;bk bu;ad ke;dk pa;xb	100
+地脉之战	di;ty ml;oy vi;dd vj;gv	100
+地气喷涌	di;ty qi;py pf;kb ys;dy	100
+地煞符	di;ty ua;hw fu;vf	100
+地堂霸脚	di;ty th;tk ba;yo jc;oq	100
+颠勺	dm;yv uk;gd	100
+都将毁灭	db;ev jd;dc hv;jy mx;ah	100
+斗转星移·玄门	db;du vr;iv xy;ou yi;hd	100
+毒箭	du;fm jm;vq	100
+毒箭＆断筋弩	du;fm jm;vq	100
+赌上武者最后的荣耀。	du;bv uh;aa wu;vy ve;lo zv;oq hb;pk de;bu rs;cm yk;gd	100
+短棍	dr;ud gp;mk	100
+断筋弩	dr;ja jn;vl nu;gn	100
+短闪	dr;ud uj;mr	100
+夺魂	do;dc hp;gy	100
+夺魂长	do;dc hp;gy ih;pd	100
+夺魂长剑	do;dc hp;gy ih;pd jm;da	100
+夺魂阔	do;dc hp;gy ko;mh	100
+夺魂阔刀	do;dc hp;gy ko;mh dk;gp	100
+夺魂太	do;dc hp;gy tl;dd	100
+夺魂太刀	do;dc hp;gy tl;dd dk;gp	100
+饿虎下山，定要伤人！	ee;uw hu;hj xw;ab uj;aa	100
+返魂	fj;zf hp;gy	100
+凡人们皆奉我为天通元君。	fj;dj rf;pd mf;rm jx;bb fg;ff wo;pd wz;dd tm;ad ts;zy yr;aw jp;ky	100
+凡生者，都将畏惧我。	fj;dj ug;na ve;lo db;ev jd;dc wz;ty ju;xj wo;pd	100
+反弹	fj;py tj;gd	100
+犯我帝国天威者，虽远必诛！	fj;qe wo;pd di;jb go;ky tm;ad wz;gn ve;lo sv;ki yr;zy bi;dd vu;yv	100
+飞索	fz;yd so;sb	100
+飞索大师	fz;yd so;sb da;ad ui;ab	100
+飞踢	fz;yd ti;zy	100
+分水斩	ff;bd uv;ad vj;ij	100
+凤凰羽	fg;jy hd;jh yu;xx	100
+风卷云残	fg;ji jr;ef yp;es cj;dj	100
+风雷步	fg;ji lz;yt bu;vx	100
+风雷步＆烈火斩	fg;ji lz;yt bu;vx	100
+风男	fg;ji nj;tl	100
+富春山居图	fu;bf ip;of uj;aa ju;ug tu;kd	100
+赴汤蹈火，在所不辞。	fu;zb th;dy dk;zj ho;dd zl;ta so;hj bu;ad ci;ux	100
+伏天	fu;rq tm;ad	100
+感觉又是很轻松的冒险嘛。	gj;xx jt;dj yb;vd ui;op hf;xg qy;ig ss;mg de;bu mk;oo xm;ea ma;km	100
+给他们亮亮爷的獠牙！	gz;sh ta;ry mf;rm ld;wj ld;wj ye;fe de;bu lc;ql ya;ap	100
+公道不在人心，在于结果，而那些追求结果的人，往往不择手段。	gs;sb dk;zu bu;ad zl;ta rf;pd xn;dd	100
+攻击	gs;gw ji;aa	100
+弓箭	gs;ag jm;vq	100
+钩锁百裂	gb;jg so;jb bl;ab lx;yl	100
+勾旋斩	gb;gs xr;fp vj;ij	100
+古格努斯杖	gu;uk ge;mg nu;ln si;jq vh;mv	100
+姑奶奶叫沈妙！我的手妙，人更妙！	gu;ng nl;nn nl;nn jc;kj uf;dg mc;nu	100
+顾清寒	gu;ye qy;dq hj;bd	100
+观山海·四季	gr;jy uj;aa hl;dm si;aa ji;hz	100
+观山海·异兽	gr;jy uj;aa hl;dm yi;cs ub;ka	100
+光佑	gd;ea yb;ry	100
+鬼哭神嚎	gv;pd ku;kq uf;uu hk;kh	100
+鬼刃暗扎	gv;pd rf;dd an;oy va;fg	100
+归元	gv;ax yr;aw	100
+棍阔	gp;mk ko;mh	100
+还等什么？	hl;zb dg;vs uf;ru me;ps	100
+寒冬将至，该是雪花绽放的时候了。	hj;bd ds;wd jd;dc vi;tv	100
+撼山易，撼我岳山，难！！！	hj;fg uj;aa yi;ow	100
+豪华版	hk;ub hw;uh bj;pf	100
+和尚	he;hk uh;xk	100
+红甲	hs;sg jw;aa	100
+红皮	hs;sg pi;ad	100
+后摇	hb;pk yk;ff	100
+后摇僵直	hb;pk yk;ff jd;rj vi;aa	100
+狐狸	hu;qg li;ql	100
+胡桃	hu;og tk;mv	100
+胡桃率先出击！	hu;og tk;mv uy;wu xm;ne iu;ck ji;aa	100
+胡为	hu;og wz;dd	100
+湖杨林野点	hu;dh yh;my ln;mm ye;ly dm;hv	100
+滑步	hw;dg bu;vx	100
+缓射	hr;sy ue;cu	100
+缓射＆落金乌	hr;sy ue;cu	100
+幻形淌	hr;yg xy;pk th;du	100
+幻形淌＆虚影步	hr;yg xy;pk th;du	100
+荒村	hd;ci cp;mc	100
+黄金	hd;ad jn;ra	100
+黄金阙	hd;ad jn;ra qt;mj	100
+魂燃一线	hp;gy rj;hr yi;aa xm;sj	100
+混身虎胆镇山岗，少年意气任我行！	hp;dk uf;pp hu;hj dj;od vf;jv uj;aa gh;ug uk;xp nm;ra yi;xy qi;py rf;rr wo;pd xy;xd	100
+魂玉	hp;gy yu;ad	100
+火箭	ho;dd jm;vq	100
+火箭＆锁羚羊	ho;dd jm;vq	100
+火罗国	ho;dd lo;sx go;ky	100
+火龙炮	ho;dd ls;ad pk;hb	100
+火男	ho;dd nj;tl	100
+火炮	ho;dd pk;hb	100
+火球	ho;dd qq;wq	100
+季沧海	ji;hz ch;dc hl;dm	100
+机触	ji;mj iu;ij	100
+机触＆破门闩	ji;mj iu;ij	100
+集火	ji;mv ho;dd	100
+极品皮肤	ji;mj pn;kk pi;ad fu;of	100
+极品时装	ji;mj pn;kk ui;oc vd;yv	100
+集束	ji;mv uu;ad	100
+既在人世，何必超凡脱俗。	ji;gg zl;ta rf;pd ui;ca he;rk bi;dd ik;zv fj;dj to;od su;rg	100
+甲爆	jw;aa bk;hb	100
+甲粉	jw;aa ff;mf	100
+迦南	jw;zj nj;ua	100
+见过我的人……还活着的不多。	jm;ag go;zc wo;pd de;bu rf;pd hl;zb ho;du ve;yo de;bu bu;ad do;xx	100
+剪纸·彩刀	jm;dq vi;su cl;pc dk;gp	100
+江畔何人初见雪，江雪何年初映人？	jd;dg pj;tb he;rk rf;pd iu;yd jm;ag xt;yx	100
+僵直	jd;rj vi;aa	100
+叫我船长!	jc;kj wo;pd ir;vk vh;pd	100
+金堆	jn;ra dv;tv	100
+金甲	jn;ra jw;aa	100
+近抗	jn;zj kh;fk	100
+今日起卦，乃是大吉之相！	jn;ra ri;aa qi;zj gw;bg	100
+金武	jn;ra wu;vy	100
+金乌纪	jn;ra wu;pa ji;sj	100
+金玉	jn;ra yu;ad	100
+荆轲献匕	jy;dk ke;ik xm;qn bi;pg	100
+敬我爱我？辱我惧我？与我何干。	jy;wg wo;pd ai;vy wo;pd ru;ci wo;pd ju;xj wo;pd yu;aa wo;pd he;rk gj;aa	100
+精准	jy;mq vp;dv	100
+就要去冒险了，太期待啦！	jq;yj yk;xn qu;ts mk;oo xm;ea le;aa	100
+就要去冒险了，太期待啦！	jq;yj yk;xn qu;ts mk;oo xm;ea le;aa tl;dd qi;oq dl;xs la;kl	100
+觉教	jt;dj jc;wx	100
+开元宝箱任选礼	kl;ac yr;aw bk;by xd;vx rf;rr xr;zx li;ug	100
+克烈	ke;eg lx;hl	100
+快蓄	ky;xd xu;ci	100
+快蓄＆流天雷	ky;xd xu;ci	100
+矿坑区	kd;ug kg;tk qu;ki	100
+狂浪怒涛	kd;qw lh;dl nu;xn tk;du	100
+捆绑包	kp;fk bh;sb bk;gs	100
+昆仑墟	kp;ob lp;rb xu;tx	100
+昆仑玄女	kp;ob lp;rb xr;wy nu;aa	100
+阔刀	ko;mh dk;gp	100
+来，舍身一战！	ll;am ue;ru uf;pp yi;aa vj;gv	100
+蓝顶	lj;cj dy;dy	100
+蓝堆	lj;cj dv;tv	100
+蓝甲	lj;cj jw;aa	100
+蓝色霸体	lj;cj se;db ba;yo ti;rb	100
+蓝武	lj;cj wu;vy	100
+蓝蓄	lj;cj xu;ci	100
+蓝玉	lj;cj yu;ad	100
+蓝月	lj;cj yt;oy	100
+蓝月改	lj;cj yt;oy gl;wj	100
+老虎不发威，拿我当病猫？	lk;bl hu;hj bu;ad fa;ay wz;gn na;uh wo;pd dh;xx by;bb mk;qm	100
+雷刀	lz;yt dk;gp	100
+链舞	lm;jl wu;rf	100
+连珠炮	lm;zi vu;wv pk;hb	100
+连珠炮＆反弹	lm;zi vu;wv pk;hb	100
+两仪剑	ld;ad yi;ry jm;da	100
+两仪剑·御剑	ld;ad yi;ry jm;da	100
+烈火斩	lx;hl ho;dd vj;ij	100
+裂空	lx;yl ks;xg	100
+凌波	ly;dl bo;dp	100
+灵狐幻刃	ly;hx hu;qg hr;yg rf;dd	100
+玲珑一笑，吉凶难料。嘻嘻……	ly;wl ls;wl yi;aa xc;vy	100
+凌霄	ly;dl xc;yx	100
+流火映真	lq;di ho;dd yy;oy vf;uj	100
+流天雷	lq;di tm;ad lz;yt	100
+流星飞坠	lq;di xy;ou fz;yd vv;td	100
+龙虎功	ls;ad hu;hj gs;gl	100
+龙之道	ls;ad vi;dd dk;zu	100
+落金乌	lo;cl jn;ra wu;pa	100
+落日寺	lo;cl ri;aa si;ct	100
+麦赫塔	ml;fw he;ii ta;td	100
+猫足	mk;qm zu;kv	100
+猫足＆壁虎游墙	mk;qm zu;kv	100
+没有人可以阻止我。	mz;du yb;ou rf;pd ke;dk yi;rd zu;eq vi;aa wo;pd	100
+秘境	mi;hb jy;tj	100
+妙手	mc;nu ub;pa	100
+那不是我的名字。	na;el bu;ad ui;op wo;pd de;bu my;xk zi;bz	100
+哪怕牺牲自己，我也要完成新的使命。	na;kn pa;xb xi;nx ug;nu zi;pa ji;ag wo;pd ye;gg yk;xn wj;by ig;gg xn;jq de;bu ui;rl my;re	100
+哪怕一丝希望，我都将奋战到底。	na;kn pa;xb yi;aa si;aa xi;ju wh;wo wo;pd db;ev jd;dc ff;dt vj;gv dk;dv di;gd	100
+奶妈	nl;nn ma;nm	100
+能来帮帮胡桃吗	ng;sb ll;am bh;jb bh;jb hu;og tk;mv ma;km	100
+你不在阎王簿上。	ni;re bu;ad zl;ta yj;mj wh;aa bu;vc uh;aa	100
+尼尔	ni;ub er;dx	100
+你以为我穿成这样是为了取悦你？你猜对了，亲爱的。	ni;re yi;rd wz;dd wo;pd ir;xy ig;gg ve;zw yh;my ui;op wz;dd le;aa qu;ey yt;xd ni;re	100
+鸟铳	nc;na is;jy	100
+宁红叶	ny;bd hs;sg ye;ku	100
+宁红夜	ny;bd hs;sg ye;wd	100
+怒火焚身	nu;xn ho;dd ff;hl uf;pp	100
+哦？没射到他的心里吗？	oo;kw mz;du ue;cu dk;dv ta;ry de;bu xn;dd li;aa ma;km	100
+哦？我以为只有铁卫是青铜的，没想到在场的都是！	oo;kw wo;pd yi;rd wz;dd vi;kb yb;ou tx;ju wz;ea ui;op qy;of ts;jt de;bu mz;du xd;xx dk;dv zl;ta ih;ty de;bu db;ev ui;op	100
+排位赛	pl;ff wz;rl sl;bb	100
+喷火筒	pf;kb ho;dd ts;vt	100
+蓬莱岛	pg;cf ll;cl dk;nu	100
+朋友？哈哈哈……每个人都是我的朋友。	pg;oo yb;yu ha;kh ha;kh ha;kh mz;pm ge;ra rf;pd db;ev ui;op wo;pd de;bu pg;oo yb;yu	100
+琵琶行	pi;wb pa;bw hh;xd	100
+平击	py;aa ji;aa	100
+平击蓄力	py;aa ji;aa xu;ci li;gp	100
+破风	po;up fg;ji	100
+破门闩	po;up mf;dg ur;ma	100
+前摇	qm;bd yk;ff	100
+强伪连	qd;gs wz;rw lm;zi	100
+强袭?离火式	qd;gs xi;ly li;ws ho;dd ui;gy	100
+巧匠	qc;gk jd;jk	100
+敲钟	qc;gy vs;jv	100
+请挂护航	qy;yq gw;fg hu;fh hh;vk	100
+青鬼	qy;of gv;pd	100
+青鬼改	qy;of gv;pd gl;wj	100
+清寒不喜争抢，但……更讨厌抢不到。	qy;dq hj;bd bu;ad xi;uk vg;dy qd;fc	100
+青铜	qy;of ts;jt	100
+燃烧	rj;hr uk;hy	100
+让他们见识见识我的手段！	rh;yu ta;ry mf;rm jm;ag ui;yv jm;ag ui;yv wo;pd de;bu ub;pa dr;ud	100
+惹怒我的人，可没有好下场！	re;cx nu;xn wo;pd de;bu rf;pd	100
+人爱者有力，爱人者应勇。	rf;pd ai;vy ve;lo yb;ou li;gp	100
+人爱者有力，爱人者应勇。	rf;pd ai;vy ve;lo yb;ou li;gp ai;vy rf;pd ve;lo yy;ga ys;ly	100
+任何利益都需要付出代价，但我很擅长让其他人承受代价。	rf;rr he;rk li;hd yi;mb db;ev xu;ye yk;xn fu;rc iu;ck dl;ry jw;rj dj;rd wo;pd hf;xg uj;fd ih;pd rh;yu qi;ba ta;ry rf;pd ig;ad ub;vy dl;ry jw;rj	100
+日轮国	ri;aa lp;il go;ky	100
+散射	sj;wo ue;cu	100
+扫地僧	sk;fx di;ty sg;rc	100
+扫码登录	sk;fx ma;um dg;dd lu;au	100
+森罗谷	sf;ml lo;sx gu;bk	100
+沙暴会埋葬我的敌人！	ua;du bk;ou hv;ry ml;tl zh;cc wo;pd de;bu di;wu rf;pd	100
+沙男	ua;du nj;tl	100
+扇里走丸	uj;hy li;aa zb;tv wj;jd	100
+神秘	uf;uu mi;hb	100
+沈妙	uf;dg mc;nu	100
+神鹰堡	uf;uu yy;gn bk;tb	100
+胜负不重要，有趣才重要！	ug;ou fu;db bu;ad vs;pa yk;xn yb;ou qu;zq cl;ap vs;pa yk;xn	100
+升华类魂玉	ug;pc hw;uh lz;md hp;gy yu;ad	100
+胜利的味道。	ug;ou li;hd de;bu wz;kw dk;zu	100
+升龙	ug;pc ls;ad	100
+十步之外，枪快，十步之内，我的枪又准又快！	ui;aa bu;vx vi;dd wl;xb qd;mc ky;xd	100
+噬魂斩	ui;ku hp;gy vj;ij	100
+是时候面对过往的罪恶了。	ui;op ui;oc hb;ru mm;aa dv;cy go;zc wh;xv de;bu zv;sf ee;xy le;aa	100
+是时候痛痛快快的打一架了！	ui;op ui;oc hb;ru ts;by ts;by ky;xd ky;xd de;bu da;fd yi;aa jw;mj le;aa	100
+蚀月	ui;ui yt;oy	100
+狩猎盛宴开始啦！	ub;qu lx;qx ug;mi yj;bn kl;ac ui;nt la;kl	100
+双刀	ud;yy dk;gp	100
+双环扫	ud;yy hr;wb sk;fx	100
+双戟	ud;yy ji;gu	100
+双截棍	ud;yy jx;gv gp;mk	100
+双闪	ud;yy uj;mr	100
+速射	su;zu ue;cu	100
+虽是天生地长，也不必被困于天地！	sv;ki ui;op tm;ad ug;na di;ty vh;pd	100
+锁羚羊	so;jb ly;yl yh;da	100
+他们都叫我雾海龙王！	ta;ry mf;rm db;ev jc;kj wo;pd wu;yw hl;dm ls;ad wh;aa	100
+太刀	tl;dd dk;gp	100
+天寒日短，抓紧时间。	tj;ad hj;bd ri;aa dr;ud vw;fv jn;sy ui;oc jm;mo	100
+唐安城	th;gk an;bn ig;ti	100
+特木尔	te;ns mu;ad er;dx	100
+体力	ti;rb li;gp	100
+天才阴阳师驾到。	tm;ad cl;ap yn;eo yh;eo ui;ab jw;mj dk;dv	100
+天赐安神	tm;ad ci;by an;bn uf;uu	100
+天海	tm;ad hl;dm	100
+天寒日短，抓紧时间。	tm;ad hj;bd ri;aa dr;ud	100
+天人榜	tm;ad rf;pd bh;mp	100
+天人城	tm;ad rf;pd ig;ti	100
+天人之战	tm;ad rf;pd vi;dd vj;gv	100
+天纵	tm;ad zs;sc	100
+跳振	tc;zv vf;fi	100
+铁卫出征，寸草不生，哈哈哈哈！	tx;ju wz;ea iu;ck vg;xv	100
+铁羽扇	tx;ju yu;xx uj;hy	100
+听从我的号令！	ty;kj cs;rr wo;pd de;bu hk;kk ly;rs	100
+听说在上一劫，狐可是祥瑞之兆。	ty;kj uo;yd zl;ta uh;aa yi;aa jx;lq hu;qg ke;dk ui;op xd;uy rv;we vi;dd vk;ed	100
+通教	ts;zy jc;wx	100
+同源	ts;kk yr;dy	100
+同源武器	ts;kk yr;dy wu;vy qi;kk	100
+吐纳术	tu;kt na;sn uu;md	100
+完壁	wj;by bi;tb	100
+万劫不复？那我便将一切推倒重来！	wj;ag jx;lq bu;ad fu;pw na;el wo;pd bm;rg jd;dc yi;aa qx;dq tv;fv dk;rd is;pa ll;am	100
+完美攻击	wj;by mz;dy gs;gw ji;aa	100
+完美近抗	wj;by mz;dy jn;zj kh;fk	100
+完美体力	wj;by mz;dy ti;rb li;gp	100
+完美远抗	wj;by mz;dy yr;zy kh;fk	100
+万刃轮	wj;ag rf;dd lp;il	100
+万象	wj;ag xd;du	100
+违规炸鱼	wz;zw gv;fj va;hv yu;da	100
+伪连	wz;rw lm;zi	100
+我必将重现苍狼部落的荣耀！	wo;pd bi;dd jd;dc is;pa xm;wj ch;cc lh;ql bu;ek lo;cl de;bu rs;cm yk;gd	100
+我必将阻止悲剧重演。	wo;pd bi;dd jd;dc zu;eq vi;aa bz;xf ju;dj is;pa yj;dy	100
+我倒要看看这里有什么秘密呢！	wo;pd dk;rd yk;xn kj;ou kj;ou ve;zw li;aa yb;ou uf;ru me;ps mi;hb mi;ub ne;kn	100
+我的发明，和我一样妙！	wo;pd de;bu fa;ay my;oo he;hk wo;pd yi;aa yh;my mc;nu	100
+我的阴阳术可是很厉害的哟~	wo;pd de;bu yn;eo yh;eo uu;md ke;dk ui;op hf;xg li;iw hl;bk de;bu yo;ky	100
+我会让敌人们……安息！	wo;pd hv;ry rh;yu di;wu rf;pd mf;rm an;bn xi;xz	100
+我既然选择了这样路，便会一直走下去。	wo;pd ji;gg rj;hq xr;zx ze;ff le;aa ve;zw yh;my lu;zg bm;rg hv;ry yi;aa vi;aa zb;tv xw;ab qu;ts	100
+我将尽我所能，哪怕粉身碎骨。	wo;pd jd;dc jn;id wo;pd so;hj ng;sb na;kn pa;xb ff;mf uf;pp sv;uz gu;go	100
+我叫胡桃，是土御门家的天才阴阳师！	wo;pd jc;kj hu;og tk;mv ui;op tu;aa yu;xx mf;dg jw;bu de;bu tm;ad cl;ap yn;eo yh;eo ui;ab	100
+我可没时间陪你玩！	wo;pd ke;dk mz;du ui;oc jm;mo pz;ek ni;re wj;wy	100
+我没有名字，只有任务。	wo;pd mz;du yb;ou my;xk zi;bz vi;kb yb;ou rf;rr wu;wl	100
+我们走吧。	wo;pd mf;rm zb;tv ba;kb	100
+我乃无极帝国长公主，顾清寒。	wo;pd nl;pg wu;ag ji;mj di;jb go;ky vh;pd gs;sb vu;dw gu;ye qy;dq hj;bd	100
+我乃无极帝国长公主，顾清寒。	wo;pd nl;pg wu;ag ji;mj di;jb go;ky vh;pd gs;sb vu;dw gu;ye qy;dq hj;bd	100
+我乃隐族使者，无尘！	wo;pd nl;pg yn;ej zu;fu ui;rl ve;lo wu;ag if;tx	100
+我能让男人们的心跳加快，也能让它们随时停止。	wo;pd ng;sb rh;yu nj;tl rf;pd mf;rm de;bu xn;dd tc;zv jw;lk ky;xd ye;gg ng;sb rh;yu ta;bb mf;rm sv;ey ui;oc ty;rt vi;aa	100
+我是昆仑玄女，宁红夜！	wo;pd ui;op kp;ob lp;rb xr;wy nu;aa ny;bd hs;sg ye;wd	100
+我是昆仑玄女，宁红夜！	wo;pd ui;op kp;ob lp;rb xr;wy nv;aa ny;bd hs;sg ye;wd	100
+我是无极帝国武威侯——岳山！	wo;pd ui;op wu;ag ji;mj di;jb go;ky wu;vy wz;gn hb;ru yt;uq uj;aa	100
+我踏浪而来！	wo;pd ta;zt lh;dl er;aa ll;am	100
+我喜欢火药的香味，我不管，那就是香味！	wo;pd xi;uk hr;yq ho;dd yk;cy de;bu xd;ho wz;kw wo;pd bu;ad gr;vg na;el jq;yj ui;op xd;ho wz;kw	100
+我要让胜利的烟火，照亮战场的夜空！	wo;pd yk;xn rh;yu ug;ou li;hd de;bu yj;hy ho;dd vk;hv ld;wj vj;gv ih;ty de;bu ye;wd ks;xg	100
+我要重炼阴阳二气，再开乾坤。	wo;pd yk;xn vs;pa lm;hd yn;eo yh;eo er;aa qi;py zl;aa kl;ac qm;uq kp;tu	100
+我有着王者的血脉！	wo;pd yb;ou ve;yo wh;aa ve;lo de;bu xt;pa ml;oy	100
+我早有觉悟。	wo;pd zk;ou yb;ou jt;dj wu;xw	100
+我只接受一种结果，就是胜利！	wo;pd vi;kb jx;fq ub;vy yi;aa vs;hv jx;sj go;ad jq;yj ui;op ug;ou li;hd	100
+武备匣	wu;vy bz;wt xw;kj	100
+无常司白七，接令！	wu;ag ih;jk si;gk bl;pa qi;ag jx;fq ly;rs	100
+无常锁	wu;ag ih;jk so;jb	100
+无常与判官，理应同行。	wu;ag ih;jk yu;aa pj;db gr;bg li;wl yy;ga ts;kk xy;xd	100
+无尘	wu;ag if;tx	100
+无敌帧	wu;ag di;wu vf;jv	100
+五毒洒	wu;aa du;fm sa;dx	100
+雾海龙王	wu;yw hl;dm ls;ad wh;aa	100
+无极帝国	wu;ag ji;mj di;jb go;ky	100
+无间泰斗	wu;ag jm;mo tl;fu db;du	100
+无间修罗	wu;ag jm;mo xq;rp lo;sx	100
+吾乃天海，隐族云游者！	wu;wk nl;pg tm;ad hl;dm yn;ej zu;fu yp;es yb;dz ve;lo	100
+无牵无挂，无尘无敌。	wu;ag qm;nb wu;ag gw;fg wu;ag if;tx wu;ag di;wu	100
+无双修罗	wu;ag ud;yy xq;rp lo;sx	100
+武田信忠	wu;vy tm;aa xn;ry vs;xv	100
+五眼铳	wu;aa yj;og is;jy	100
+无言、无情、无心，即是无常。	wu;ag yj;da wu;ag qy;xq wu;ag xn;dd ji;eg ui;op wu;ag ih;jk	100
+武者当爱惜兵刃！	wu;vy ve;lo dh;xx ai;vy xi;xx by;qb rf;dd	100
+吸附	xi;kj fu;ef	100
+西行劫·伏魔	xi;aa hh;xd jx;lq fu;rq mo;gm	100
+西行劫·魍魉	xi;aa hh;xd jx;lq wh;gw ld;gl	100
+稀世宝箱	xi;hx ui;ca bk;by xd;vx	100
+稀世宝箱任选礼	xi;hx ui;ca bk;by xd;vx rf;rr xr;zx li;ug	100
+夏虫不可语冰。	xw;wz is;ad bu;ad ke;dk yu;yw by;du	100
+狭路相逢勇者胜。	xw;qj lu;zg xd;mo fg;zf ys;ly ve;lo ug;ou	100
+享受这场灵魂的盛宴吧~	xd;wz ub;vy ve;zw ih;ty ly;hx hp;gy de;bu ug;mi yj;bn ba;kb	100
+小彩头	xc;ad cl;pc tb;dd	100
+消耗类魂玉	xc;dx hk;lm lz;md hp;gy yu;ad	100
+信手斩龙	xn;ry ub;pa vj;ij ls;ad	100
+行走江湖，义气为先！	xy;xd zb;tv jd;dg hu;dh yi;di qi;py wz;dd xm;ne	100
+蓄力	xu;ci li;gp	100
+蓄力滑步	xu;ci li;gp hw;dg bu;vx	100
+虚影步	xu;hy yy;pj bu;vx	100
+蓄转振	xu;ci vr;iv vf;fi	100
+雪，是世间至纯之物。	xt;yx nl;op ui;ca jm;mo vi;tv ip;st vi;dd wu;nw	100
+雪，是世间至纯之物。	xt;yx ui;op ui;ca jm;mo vi;tv ip;st vi;dd wu;nw	100
+血药	xt;pa yk;cy	100
+巽风震雷刀	xp;gs fg;ji vf;yi lz;yt dk;gp	100
+炎神	yj;hh uf;uu	100
+阎王簿上的人，活不过今夜。	yj;mj wh;aa bu;vc uh;aa de;bu rf;pd ho;du bu;ad go;zc jn;ra ye;wd	100
+妖刀姬	yk;ny dk;gp ji;ni	100
+要做个交易吗？我相信没什么事情不能用钱解决。	yk;xn zo;rg ge;ra jc;li yi;ow ma;km wo;pd xd;mo xn;ry mz;du uf;ru me;ps ui;aa qy;xq bu;ad ng;sb ys;kf qm;jj jx;jn jt;dd	100
+爷爷我叫胡为，胡作非为的胡为。	ye;fe ye;fe wo;pd jc;kj hu;og wz;dd hu;og zo;rv fz;aa wz;dd de;bu hu;og wz;dd	100
+一吼降伏百兽，我在，谁敢称王？	yi;aa hb;kk xd;ef fu;rq bl;ab ub;ka wo;pd zl;ta uv;yv gj;we ig;he wh;aa	100
+一起去乘风破浪吧！	yi;aa qi;zj qu;ts ig;pb fg;ji po;up lh;dl ba;kb	100
+一窝蜂	yi;aa wo;xn fg;if	100
+以我之刃，了结一切！	yi;rd wo;pd vi;dd rf;dd lc;aa jx;sj yi;aa qx;dq	100
+易武?万华	yi;ow wu;vy wj;ag hw;uh	100
+殷紫萍	yn;pu zi;sc py;cp	100
+隐族	yn;ej zu;fu	100
+隐族秘藏	yn;ej zu;fu mi;hb ch;cg	100
+隐族使者	yn;ej zu;fu ui;rl ve;lo	100
+英雄识英雄，好汉知好汉。	yy;cy xs;vh ui;yv yy;cy xs;vh hk;nz hj;dy vi;uk hk;nz hj;dy	100
+英雄印	yy;cy xs;vh yn;ey	100
+硬直	yy;ug vi;aa	100
+永劫	ys;dd jx;lq	100
+永劫无间	ys;dd jx;lq wu;ag jm;mo	100
+幽冥步	yb;uy my;bl bu;vx	100
+幽冥鬼火，永不休止。	yb;uy my;bl gv;pd ho;dd ys;dd bu;ad xq;rm vi;aa	100
+优昙华	yb;ry tj;oy hw;uh	100
+有我在，就有无极的阵地在！	yb;ou wo;pd zl;ta jq;yj yb;ou wu;ag ji;mj de;bu vf;ei di;ty zl;ta	100
+右蓄	yb;ku xu;ci	100
+御地雷	yu;xx di;ty lz;yt	100
+玉玲珑	yu;ad ly;wl ls;wl	100
+元教	yr;aw jc;wx	100
+远抗	yr;zy kh;fk	100
+岳山	yt;uq uj;aa	100
+岳山得令！	yt;uq uj;aa de;xc ly;rs	100
+云顶竞速	yp;es dy;dy jy;lx su;zu	100
+陨星	yp;ey xy;ou	100
+在我眼中，无非是一场游戏罢了。	zl;ta wo;pd yj;og vs;aa wu;ag fz;aa ui;op yi;aa ih;ty yb;dz xi;yg ba;sq le;aa	100
+怎么还不开始，本小姐等不及要庆祝胜利了。	zf;xv me;ps hl;zb bu;ad kl;ac ui;nt bf;aa xc;ad jx;nq dg;vs bu;ad ji;nd yk;xn qy;gd vu;ux ug;ou li;hd le;aa	100
+炸鱼	va;hv yu;da	100
+战必胜，攻必克！	vj;gv bi;dd ug;ou gs;gw bi;dd ke;eg	100
+斩马刀	vj;ij ma;aa dk;gp	100
+召还术	vk;dk hl;zb uu;md	100
+找我？那就算找对人了！	vk;fg wo;pd na;el jq;yj sr;vc vk;fg dv;cy rf;pd le;aa	100
+这会是不错的消遣！	ve;zw hv;ry ui;op bu;ad co;jx de;bu xc;dx qm;zg	100
+这就是武道的顶点吗？	ve;zw jq;yj ui;op wu;vy dk;zu de;bu dy;dy dm;hv ma;km	100
+这里的每个人都想改变世界，而我只想改变他们。	ve;zw li;aa de;bu mz;pm ge;ra rf;pd db;ev xd;xx gl;wj bm;wy ui;ca jx;tj er;aa wo;pd vi;kb xd;xx gl;wj bm;wy ta;ry mf;rm	100
+谪星	ve;yd xy;ou	100
+这一次，就看本小姐的厉害吧。	ve;zw yi;aa ci;dq jq;yj kj;ou bf;aa xc;ad jx;nq de;bu li;iw hl;bk ba;kb	100
+振刀	vf;fi dk;gp	100
+震雷刀	vf;yi lz;yt dk;gp	100
+真连	vf;uj lm;zi	100
+征服大海可不仅仅是男人的浪漫！	vg;xv fu;oy da;ad hl;dm ke;dk bu;ad jn;ry jn;ry ui;op nj;tl rf;pd de;bu lh;dl mj;dm	100
+正气扫帚	vg;av qi;py sk;fx vb;jb	100
+正确的选择！	vg;av qt;uj de;bu xr;zx ze;ff	100
+征神之路	vg;xv uf;uu vi;dd lu;zg	100
+止戈为武。	vi;aa ge;ad wz;dd wu;vy	100
+知己知彼，方能百战不殆！	vi;uk ji;ag vi;uk bi;xp fh;dg ng;sb bl;ab vj;gv bu;ad dl;dt	100
+治疗箭	vi;dt lc;bl jm;vq	100
+终极版	vs;sd ji;mj bj;pf	100
+中闪	vs;aa uj;mr	100
+中型船内部	vs;aa xy;tx ir;vk nz;ad bu;ek	100
+诸行无常，唯有无常不灭。	vu;yv hh;xd wu;ag ih;jk wz;kv yb;ou wu;ag ih;jk bu;ad mx;ah	100
+抓闪	vw;fv uj;mr	100
+坠击	vv;td ji;aa	100
+坠日	vv;td ri;aa	100
+准备好庆功宴吧！	vp;dv bz;wt hk;nz qy;gd gs;gl yj;bn ba;kb	100
+自定义房间	zi;pa dy;bp yi;di fh;hf jm;mo	100
+自动人形	zi;pa ds;ly rf;pd xy;pk	100
+紫甲	zi;sc jw;aa	100
+自疗弩	zi;pa lc;bl nu;gn	100
+自疗弩＆治疗箭	zi;pa lc;bl nu;gn	100
+自如	zi;pa ru;nk	100
+自业火中重生，一如既往。	zi;pa ye;aa ho;dd vs;aa is;pa ug;na yi;aa ru;nk ji;gg wh;xv	100
+自由练习	zi;pa yb;aa lm;sd xi;ga	100
+纵击	zs;sc ji;aa	100
+宗师二段	zs;bu ui;ab er;aa dr;ud	100
+宗师三段	zs;bu ui;ab sj;aa dr;ud	100
+宗师四段	zs;bu ui;ab si;aa dr;ud	100
+宗师一段	zs;bu ui;ab yi;aa dr;ud	100
+
