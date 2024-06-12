@@ -20,12 +20,14 @@ switches:
     states: [ 半角, 全角 ]
   - name: simplification
     states: [ 漢字, 汉字 ]
+    reset: 1
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: extended_charset
     states: [ 通用, 增廣 ]
   - name: emoji
     states: [ 🈚, 🈶 ]
+    reset: 1
   - name: unicode_comment
     states: [ U關, U開 ]
   - name: dzing
