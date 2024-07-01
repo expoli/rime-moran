@@ -21340,8 +21340,10 @@ Bilibili	bvj
 滙	hvdv
 匯兌	hvdv
 回跌	hvdx
-隓	hve
+隳	hve
 會兒	hver
+隳	hvex
+隓	hvez
 揮	hvf
 揮發	hvfa
 灰分	hvff
@@ -27938,6 +27940,7 @@ Bilibili	bvj
 幾秒	jomc
 幾名	jomy
 幾年	jonm
+几	jop
 幾篇	jopm
 幾千	joqm
 幾圈	joqr
@@ -58906,6 +58909,7 @@ PC端	pcdr
 鍺	vej
 浙江	vejd
 丈二金剛	vejg
+喆	vejj
 這件	vejm
 折舊	vejq
 這句	veju
@@ -75616,6 +75620,7 @@ WiFi	wifi
 字數	ziuu
 漬水	ziuv
 笫	ziv
+自證	zivg
 資政	zivg
 滋長	zivh
 資質	zivi
@@ -77182,7 +77187,6 @@ WiFi	wifi
 賊子	zzzi
 自作自受	zzzu
 自自在在	zzzz
-几	jop
 
 啊啊啊	aaaa
 愛不愛	abai
@@ -85607,7 +85611,7 @@ WiFi	wifi
 鋯	oczr
 鈮	ocnb
 鉬	ocmo
-鍀	octe
+鍀	octc
 釕	ocru
 銠	ocrh
 鈀	ocpd
@@ -85685,7 +85689,7 @@ WiFi	wifi
 鐒	oclr
 
 
-# 飛鍵 xq -> xo
+# 開始飛鍵 xq -> xo
 罷休	baxo
 必修	bixo
 半休	bjxo
@@ -85907,8 +85911,9 @@ WiFi	wifi
 二不休	ebxo
 離退休	ltxo
 脫口秀	tkxo
+# 结束飛鍵
 
-# 飛鍵 qx -> qo
+# 開始飛鍵 qx -> qo
 哀切	aiqo
 並且	byqo
 悲切	bzqo
@@ -86057,6 +86062,7 @@ WiFi	wifi
 餘切	yuqo
 暫且	zjqo
 一刀切	ydqo
+# 結束飛鍵
 
 
 ##隨心碼
