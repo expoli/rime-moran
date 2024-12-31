@@ -19,12 +19,15 @@ algebra:
   # 用戶自定義演算式，這部分演算式會注入到類整句方案的開頭和結尾，不包括字詞模式
   # 用例：實現模糊音、將自然碼雙拼映射爲別的雙拼方案等
   user_sentence_top:
-    # __append:
-    #   __patch:
-    #     - moran_defs:/bufen/z_zh
-    #     - moran_defs:/bufen/c_ch
-    #     - moran_defs:/bufen/s_sh
-    #     - moran_defs:/bufen/en_eng
+    __append:
+      __patch:
+        - moran_defs:/fly/qx_qo  # ZRM-SPECIFIC
+        - moran_defs:/fly/xq_xo  # ZRM-SPECIFIC
+        # 模糊音設置
+        # - moran_defs:/bufen/z_zh
+        # - moran_defs:/bufen/c_ch
+        # - moran_defs:/bufen/s_sh
+        # - moran_defs:/bufen/en_eng
   user_sentence_bottom:
 
   # 用於生成用戶輸入碼的核心演算式
@@ -37,7 +40,7 @@ algebra:
       - derive/^(.+);(\w)(\w)$/$1/      # 構詞可以用 YY
       # ZRM-SPECIFIC: 特殊優化：部分音節字極少，幾乎不參與構詞，則提升對應四碼字的優先級
       # ZRM-SPECIFIC: （僅對自然碼雙拼有效，其他雙拼方案需作對應修改）
-      - derive/^(.+);(bd|dw|df|dw|yl|rw|fs|iw)$/$1$2/  # ZRM-SPECIFIC
+      - derive/^(.+);(bd|dw|df|yl|rw|fs|iw|pd|sw|cz|dn|zy|nw)$/$1$2/  # ZRM-SPECIFIC
       - erase/^(.+);(.+)$/              # 刪除原始編碼以加速檢索
 
 key_bindings:
@@ -93,6 +96,21 @@ key_bindings:
       - { when: has_menu, accept: Shift+Y, send_sequence: "{Control+Left}y{Control+Right}" }
       - { when: has_menu, accept: Shift+Z, send_sequence: "{Control+Left}z{Control+Right}" }
       - { when: has_menu, accept: Shift+BackSpace, send_sequence: "{Control+Left}{BackSpace}{Control+Right}" }
+
+  # 支持小鍵盤數字鍵和回車鍵
+  moran_keypad:
+    __append:
+      - { when: composing, accept: KP_Enter, send: Return }
+      - { when: composing, accept: KP_0, send: '0' }
+      - { when: composing, accept: KP_1, send: '1' }
+      - { when: composing, accept: KP_2, send: '2' }
+      - { when: composing, accept: KP_3, send: '3' }
+      - { when: composing, accept: KP_4, send: '4' }
+      - { when: composing, accept: KP_5, send: '5' }
+      - { when: composing, accept: KP_6, send: '6' }
+      - { when: composing, accept: KP_7, send: '7' }
+      - { when: composing, accept: KP_8, send: '8' }
+      - { when: composing, accept: KP_9, send: '9' }
 
 octagram:
   disable:

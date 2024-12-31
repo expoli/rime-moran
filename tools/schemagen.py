@@ -521,7 +521,13 @@ def handle_convert_sp():
         res = []
         for char_code in word_code.split(' '):
             [sp, aux] = char_code.split(';')
-            sp = to_double_pinyin(from_double_pinyin(sp, from_), to_)
+            if sp == 'pp':
+                if args.special_code_policy == 'drop':
+                    continue
+                elif args.special_code_policy == 'keep':
+                    pass
+            else:
+                sp = to_double_pinyin(from_double_pinyin(sp, from_), to_)
             res.append(sp + ';' + aux)
         return ' '.join(res)
     with open(args.rime_dict) as f:
@@ -573,6 +579,53 @@ def handle_convert_fixed_sp():
     print('''# ⚠️ 請注意：機器轉換過程無法處理無理碼，這些編碼仍需手動處理（或刪除）''')
 
 
+def handle_flykey_fixed():
+    def fly_one_pattern(word, code, old, new):
+        if len(word) == 1 and len(code) >= 2:
+            if code[:2] == old:
+                return new + code[:2]
+            else:
+                return code
+        elif len(word) == 2:
+            if code[:2] == old:
+                return new + code[2:]
+            elif code[2:] == old:
+                return code[:2] + new
+            return code
+        elif len(word) >= 3:
+            # 若 old[0] == new[0] 則只替換韻母
+            if old[0] == new[0] and len(word) >= 4:
+                return code
+            elif old[0] == new[0] and len(word) == 3:
+                if word[2:] == old:
+                    return word[:2] + new
+                else:
+                    return code
+            # 此時 old[0] != new[0]
+            parts = [part.replace(old,new) for part in to_double_pinyin(word_to_pinyin(word)).split(' ')]
+            code = parts[0][0] + parts[1][0] + parts[2][0]
+            if len(parts) == 3:
+                return code + parts[2][1]
+            else:
+                return code + parts[-1][0]
+    for pat in args.pattern:
+        [old, new] = pat.split(',')
+        print(f"# 開始飛鍵 {old} -> {new}")
+        with open(args.rime_dict, 'r') as f:
+            for l in f:
+                l = l.rstrip('\n')
+                m = regex.match(r'^(\p{Han}+)\t([a-z]+)(.*)$', l)
+                if not m:
+                    continue
+                word = m[0]
+                code = m[1]
+                rest = m[2]
+                newcode = fly_one_pattern(word, code, old, new)
+                if newcode != code:
+                    print(f'{word}\t{newcode}{rest}')
+        print('# 結束飛鍵')
+
+
 ###############
 ### 程序入口 ###
 ###############
@@ -620,10 +673,15 @@ update_sp.add_argument('--find', help='只更新含有這些字的詞', default=
 convert_sp = subparsers.add_parser('convert-sp', help='轉換雙拼（整句詞庫）')
 convert_sp.add_argument('--rime-dict', help='輸入rime格式詞庫', required=True)
 convert_sp.add_argument('--to', choices=double_pinyin_choices, help='目的雙拼方案', required=True)
+convert_sp.add_argument('--special-code-policy', choices=['keep', 'drop'], default='keep', help='特殊碼如何處理')
 
 convert_fixed_sp = subparsers.add_parser('convert-fixed-sp', help='轉換雙拼（fixed碼表）')
 convert_fixed_sp.add_argument('--rime-dict', help='輸入rime格式詞庫', required=True)
 convert_fixed_sp.add_argument('--to', choices=double_pinyin_choices, help='目的雙拼方案', required=True)
+
+# flykey_fixed = subparsers.add_parser('flykey-fixed', help='碼表自動飛鍵')
+# flykey_fixed.add_argument('--pattern', help='輸入飛鍵', required=True, action='append')
+# flykey_fixed.add_argument('--rime-dict', help='碼表', required=True)
 
 if __name__ == '__main__':
     args = parser.parse_args()
@@ -643,3 +701,7 @@ if __name__ == '__main__':
         handle_convert_sp()
     elif args.command == 'convert-fixed-sp':
         handle_convert_fixed_sp()
+    # elif args.command == 'flykey-fixed':
+    #     handle_flykey_fixed()
+
+# args = parser.parse_args(['flykey-fixed', '--pattern=qx,qo'])
