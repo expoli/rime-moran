@@ -139,7 +139,7 @@ simplifier:
 emoji:
   opencc_config: moran_emoji.json
   option_name: emoji
-  tips: all
+  tips: none
 
 chaifen:
   option_name: chaifen
