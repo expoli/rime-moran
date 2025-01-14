@@ -747,6 +747,7 @@ A4紙	asv
 安土重遷	atvq
 哀痛欲絕	atyj
 凹凸有致	atyv
+暗示	au
 礙手礙腳	auaj
 安守本分	aubf
 愛說不說	aubu
@@ -789,6 +790,7 @@ A4紙	asv
 愛學習	axx
 愛惜羽毛	axym
 哎呀	ay
+哎呦	ay
 哎呦呵	ayh
 愛因斯坦	ayst
 安營紮寨	ayvv
@@ -7966,6 +7968,7 @@ C++	cjj
 大而言之	deyv
 得罪	dezv
 地方	df
+對方	df
 對付	df
 地方部隊	dfbd
 打防並舉	dfbj
@@ -9044,6 +9047,7 @@ C++	cjj
 大快朵頤	dkdy
 奪眶而出	dkei
 刀兒	dker
+笛卡爾	dker
 搗	dkf
 刀法	dkfa
 捯	dkfd
@@ -11647,7 +11651,7 @@ C++	cjj
 惡賊	eezz
 而非	ef
 二分之一	efvy
-鞥	eg
+嗯	eg
 峨冠博帶	egbd
 厄瓜多爾	egde
 恩格爾係數	egeu
@@ -12654,6 +12658,7 @@ C++	cjj
 鳯	fgjn
 風景	fgjy
 唪	fgk
+風口	fgkb
 封口	fgkb
 瘋狂	fgkd
 風控	fgks
@@ -13496,6 +13501,7 @@ C++	cjj
 風流雲散	flys
 風流韻事	flyu
 飛龍在天	flzt
+方面	fm
 繁忙	fm
 分門別類	fmbl
 鋒芒畢露	fmbl
@@ -19072,7 +19078,9 @@ C++	cjj
 橫渡	hgdu
 橫隊	hgdv
 恆定	hgdy
+黑格爾	hge
 橫額	hgee
+黑格爾	hger
 撗	hgf
 橫幅	hgfu
 迴光返照	hgfv
@@ -21975,6 +21983,7 @@ C++	cjj
 華族	hwzu
 毫無作用	hwzy
 好像	hx
+好想	hx
 好心不得好報	hxbb
 橫行霸道	hxbd
 喝西北風	hxbf
@@ -27411,7 +27420,7 @@ C++	cjj
 堅固	jmgu
 見鬼	jmgv
 見怪	jmgy
-肩	jmh
+煎	jmh
 加密貨幣	jmhb
 建行	jmhh
 減號	jmhk
@@ -27532,10 +27541,11 @@ C++	cjj
 擠眉弄眼	jmny
 奸佞	jmny
 賤內	jmnz
-瞼	jmo
+肩	jmo
 腱	jmoj
 瞷	jmoj
 暕	jmoj
+瞼	jmoq
 牋	jmp
 檢票	jmpc
 簡樸	jmpc
@@ -28964,8 +28974,9 @@ C++	cjj
 劇毒	judu
 九十點鐘	judv
 建設單位	judw
-郹	jue
+聚	jue
 鉅額	juee
+郹	jueq
 拒	juf
 句法	jufa
 颶風	jufg
@@ -29118,7 +29129,7 @@ C++	cjj
 拒聘	jupn
 劇評	jupy
 拒賠	jupz
-聚	juq
+狙	juq
 見識淺薄	juqb
 舊石器時代	juqd
 舉起	juqi
@@ -30155,8 +30166,8 @@ C++	cjj
 精度	jydu
 警隊	jydv
 阱	jye
-淨額	jyee
 驚愕	jyee
+淨額	jyee
 旌	jyf
 勁風	jyfg
 驚風	jyfg
@@ -31182,6 +31193,7 @@ C++	cjj
 抗病	khby
 客戶端	khd
 寬宏大度	khdd
+康德	khde
 抗敵	khdi
 漮	khdk
 寬宏大量	khdl
@@ -31797,6 +31809,7 @@ C++	cjj
 廓落	kolo
 闊	kom
 闊氣	koqi
+擴圈	koqr
 擴權	koqr
 廓清	koqy
 闊人	korf
@@ -39232,6 +39245,7 @@ C++	cjj
 美味可口	mwkk
 漫無目的	mwmd
 沒完沒了	mwml
+魔物娘	mwnd
 勉爲其難	mwqn
 面無人色	mwrs
 渺無人煙	mwry
@@ -40462,6 +40476,7 @@ C++	cjj
 楠木	njmu
 南明	njmy
 南美	njmz
+男娘	njnd
 難解難分	njnf
 喃喃	njnj
 難耐	njnl
@@ -45126,7 +45141,7 @@ PC端	pcdr
 曲裏拐彎兒	qlge
 奇了怪了	qlgl
 曲裏拐彎	qlgw
-起來嗨	qlh
+權利	qlh
 秦樓楚館	qlig
 千里傳音	qliy
 輕量級	qlj
@@ -46072,6 +46087,7 @@ PC端	pcdr
 勸募	qrmu
 全名	qrmy
 牷	qrn
+犬娘	qrnd
 全能	qrng
 婘	qrnj
 犈	qrnj
@@ -54115,6 +54131,7 @@ PC端	pcdr
 停付	tyfu
 停飛	tyfz
 廳	tyg
+同一個	tyg
 聽歌	tyge
 停更	tygg
 同業公會	tygh
@@ -59936,7 +59953,6 @@ PC端	pcdr
 止步	vibu
 支部	vibu
 痣	vibv
-窒	vibv
 贄	vibv
 寘	vibv
 疻	vibv
@@ -60103,7 +60119,7 @@ PC端	pcdr
 致敬	vijy
 知恥近乎勇	vijy
 至誠君子	vijz
-只	vik
+知	vik
 止咳	vike
 只肯	vikf
 只看	vikj
@@ -60261,7 +60277,7 @@ PC端	pcdr
 埴	vitv
 只聽	vity
 咫尺天涯	vity
-知	viu
+支	viu
 治沙	viua
 製售	viub
 祗	viud
@@ -60305,8 +60321,9 @@ PC端	pcdr
 之中	vivs
 歭	vivs
 滯重	vivs
-蜘蛛	vivu
 支柱	vivu
+蜘蛛	vivu
+雉	vivu
 直追	vivv
 臸	vivv
 致	viw
@@ -60334,6 +60351,7 @@ PC端	pcdr
 之選	vixr
 止血	vixt
 秩序	vixu
+窒	vixv
 忮	vixv
 恉	vixv
 慹	vixv
@@ -61822,8 +61840,8 @@ PC端	pcdr
 駐華	vuhw
 蛛	vui
 煮茶	vuia
-鑄成	vuig
 著稱	vuig
+鑄成	vuig
 主場	vuih
 主持	vuii
 蠋	vuii
@@ -63654,6 +63672,7 @@ WiFi	wifi
 萬里長城	wlii
 歪纏	wlij
 外鈔	wlik
+外傳	wlir
 外出	wliu
 萬里長征	wliv
 外交	wljc
@@ -64106,6 +64125,7 @@ WiFi	wifi
 勿談國事	wtgu
 無頭告示	wtgu
 五天工作制	wtgv
+無條件	wtj
 舞臺監督	wtjd
 味同嚼蠟	wtjl
 無條件反射	wtju
@@ -64905,7 +64925,7 @@ WiFi	wifi
 爲輔	wzfu
 撝	wzfw
 王子犯法與庶民同罪	wzfz
-威	wzg
+魏	wzg
 微光	wzgd
 偉哥	wzge
 廆	wzgg
@@ -65014,12 +65034,13 @@ WiFi	wifi
 椳	wzmw
 威名	wzmy
 唯美	wzmz
-娓	wzn
+威	wzn
 僞娘	wznd
 未能	wzng
 違逆	wzni
 爲難	wznj
 餵奶	wznl
+娓	wznw
 媺	wznw
 媦	wznw
 犚	wznw
@@ -66620,6 +66641,7 @@ WiFi	wifi
 先苦後甜	xkht
 信口胡說	xkhu
 笑口常開	xkik
+星空鍵道	xkjd
 先看看	xkk
 信口開河	xkkh
 辛苦了	xkl
@@ -67299,6 +67321,7 @@ WiFi	wifi
 薪資	xnzi
 新作	xnzo
 心醉	xnzv
+休謨	xomo
 尋	xp
 嫌貧愛富	xpaf
 笑貧不笑娼	xpbi
@@ -69401,6 +69424,7 @@ WiFi	wifi
 瞎子點燈白費蠟	xzdl
 小資產階級	xzij
 下自成蹊	xziq
+現在就	xzj
 現在看	xzk
 現在看來	xzkl
 選擇了	xzl
@@ -70246,10 +70270,11 @@ WiFi	wifi
 夜歸	yegv
 也怪	yegy
 也給	yegz
+燁	yeh
 葉猴	yehb
 也很	yehf
-燁	yehh
 夜航	yehh
+燁	yehh
 也好	yehk
 也還	yehl
 煠	yehm
@@ -71652,7 +71677,7 @@ WiFi	wifi
 唌	yjky
 喭	yjky
 眼快	yjky
-兗	yjl
+鹽	yjl
 郵件列表	yjlb
 顏料	yjlc
 一舉兩得	yjld
@@ -71670,6 +71695,7 @@ WiFi	wifi
 沿路	yjlu
 以假亂真	yjlv
 冤家路窄	yjlv
+兗	yjlx
 一家老小	yjlx
 英吉利海峽	yjlx
 嚴令	yjly
@@ -72272,6 +72298,7 @@ WiFi	wifi
 一路上	ylu
 伊麗莎白	ylub
 亞歷山大	ylud
+亚里士多德	ylud
 一路順風	yluf
 有理說不清	yluq
 衣來伸手	yluu
@@ -72412,7 +72439,7 @@ WiFi	wifi
 躍馬揚鞭	ymyb
 越描越黑	ymyh
 有沒有一種可能	ymyn
-元謀猿人	ymyr
+有沒有人	ymyr
 英明一世	ymyu
 有名有實	ymyu
 有名有姓	ymyx
@@ -73475,12 +73502,13 @@ WiFi	wifi
 擁塞	ysse
 壅塞	ysse
 庸俗	yssu
-墉	yst
+壅	yst
 伊斯坦布爾	yste
 有所提高	ystg
 泳壇	ystj
 詠歎	ystj
 用途	ystu
+墉	ysty
 饔	ysu
 用手	ysub
 庸手	ysub
@@ -74848,6 +74876,7 @@ WiFi	wifi
 游魚可數	yyku
 盈虧	yykv
 應用科學	yykx
+營	yyl
 影樓	yylb
 有一利必有一弊	yylb
 英兩	yyld
@@ -76448,7 +76477,7 @@ WiFi	wifi
 做愛	zoai
 作案	zoan
 作罷	zoba
-座標	zobc
+坐標	zobc
 作弊	zobi
 作伴	zobj
 做伴	zobj
@@ -79917,7 +79946,6 @@ WiFi	wifi
 何其多	hqdo
 好氣兒	hqer
 很奇怪	hqgy
-和青海	hqhl
 很清楚	hqiu
 黑旗軍	hqjp
 活全家	hqjw
