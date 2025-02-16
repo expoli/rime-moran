@@ -22363,6 +22363,7 @@ git commit	gitcommit
 git commit -m	gitcommitm
 git commit --amend	gitcommitamend
 git diff	gitdiff
+git log	gitlog
 git push	gitpush
 git remote	gitremote
 git reset	gitreset
@@ -57185,3 +57186,9 @@ Palestine	Palestine
 Fleet	Fleet
 AI	AI
 Iosevka	Iosevka
+DeepSeek	DeepSeek
+approximately	approximately
+LM Studio	LMStudio
+Xinference	Xinference
+llama.cpp	llamacpp
+Ollama	Ollama

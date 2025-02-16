@@ -129,6 +129,8 @@ AA制	aav
 按倒葫芦浮起瓢	adhp
 暗渡陈仓	adic
 暗度陈仓	adic
+按道理	adl
+暗地里	adl
 奥地利	adl
 澳大利亚	adly
 奥达曼	adm
@@ -340,6 +342,9 @@ A股	agu
 暗箭难防	ajnf
 暗箭伤人	ajur
 爱看不看	akbk
+奥卡姆	akm
+奥卡姆剃刀	akmd
+奥卡姆	akmu
 爱克斯光	aksg
 爱克斯射线	aksx
 阿里巴巴	albb
@@ -2445,6 +2450,7 @@ A4纸	asv
 爆出	bkiu
 褒奖	bkjd
 不可兼得	bkjd
+暴击	bkji
 宝鸡	bkji
 保健	bkjm
 宝剑	bkjm
@@ -6660,6 +6666,7 @@ C++	cpp
 脆枣	cvzk
 催租	cvzu
 错误	cw
+从未	cw
 财务包干	cwbg
 错误百出	cwbi
 篡位夺权	cwdq
@@ -7680,6 +7687,7 @@ C语言	cyy
 大而言之	deyv
 得罪	dezv
 地方	df
+对方	df
 对付	df
 地方部队	dfbd
 打防并举	dfbj
@@ -9704,6 +9712,7 @@ D盘	dpj
 敌强我弱	dqwr
 大气污染	dqwr
 多去下	dqx
+单曲循环	dqxh
 东瞧西看	dqxk
 丢下	dqxw
 大企业	dqy
@@ -10238,7 +10247,8 @@ D盘	dpj
 嘟哝	duns
 独女	dunv
 镀镍	dunx
-肚	duo
+督	duo
+肚	duot
 督	duou
 睹	duov
 牍	dup
@@ -11026,6 +11036,7 @@ D盘	dpj
 二次污染	ecwr
 二次元	ecy
 而当	ed
+2D	ed
 儿大不由娘	edbn
 二道贩子	edfz
 二等公民	edgm
@@ -11753,7 +11764,6 @@ E盘	epj
 凡此种种	fcvv
 方寸已乱	fcyl
 父慈子孝	fczx
-对方	fd
 反对	fd
 放荡不羁	fdbj
 防弹背心	fdbx
@@ -12872,7 +12882,8 @@ E盘	epj
 返祖	fjzu
 犯罪	fjzv
 反贼	fjzz
-飞快	fk
+疯狂	fk
+分开	fk
 富可敌国	fkdg
 反馈反馈	fkfk
 佛靠金装	fkjv
@@ -13059,6 +13070,7 @@ F盘	fpj
 飞禽走兽	fqzu
 烦人	fr
 非人	fr
+凡人	fr
 凡人不可貌相	frbx
 怫然不悦	frby
 福如东海	frdh
@@ -14979,6 +14991,7 @@ F盘	fpj
 孤臣孽子	ginz
 刚出去	giq
 工程塑料	gisl
+工程师	giu
 工程设计	giuj
 功成身退	giut
 贯彻实施	giuu
@@ -19245,7 +19258,7 @@ H股	hgu
 害虫	hlis
 好了疮疤忘了痛	hlit
 害处	hliu
-狐狸精	hlj
+黑龙江	hlj
 汗流浃背	hljb
 海角	hljc
 还将	hljd
@@ -19388,6 +19401,8 @@ H股	hgu
 海藻	hlzk
 还在	hlzl
 回炉再造	hlzz
+还没	hm
+还没有	hm
 后面	hm
 好马不吃回头草	hmbc
 好马不回头	hmbt
@@ -21142,7 +21157,8 @@ H盘	hpj
 毫无疑问	hwyw
 毫无意义	hwyy
 毫无怨言	hwyy
-花子	hwzi
+华子	hwzi
+花籽	hwzi
 花在	hwzl
 化作	hwzo
 华族	hwzu
@@ -21234,6 +21250,8 @@ H盘	hpj
 华夏子孙	hxzs
 好戏在后头	hxzt
 坏	hy
+还有	hy
+还要	hy
 怀表	hybc
 划一不二	hybe
 花样百出	hybi
@@ -21916,7 +21934,6 @@ H盘	hpj
 创设	idue
 创伤	iduh
 床上	iduh
-传道授业解惑	iduh
 创始	idui
 窗扇	iduj
 车到山前必有路	idul
@@ -22332,6 +22349,7 @@ H盘	hpj
 成就	igjq
 成家	igjw
 承接	igjx
+惩戒	igjx
 乘警	igjy
 澄净	igjy
 呈	igk
@@ -24114,6 +24132,7 @@ I盘	ipj
 出水芙蓉	iufr
 初伏	iufu
 除非	iufz
+刍狗	iugb
 出格	iuge
 除根	iugf
 出港	iugh
@@ -25217,7 +25236,7 @@ I盘	ipj
 奖框	jdkd
 讲课	jdke
 尖端科学	jdkx
-耩	jdl
+讲道理	jdl
 浆料	jdlc
 加大力度	jdld
 绝对零度	jdld
@@ -25229,6 +25248,7 @@ I盘	ipj
 降落	jdlo
 讲论	jdlp
 江流	jdlq
+耩	jdlr
 鸡蛋里挑骨头	jdlt
 将领	jdly
 既得利益	jdly
@@ -25299,6 +25319,7 @@ I盘	ipj
 几点钟	jdv
 奖状	jdvd
 江浙	jdve
+讲真	jdvf
 就地正法	jdvf
 奖章	jdvh
 将至	jdvi
@@ -25365,6 +25386,7 @@ I盘	ipj
 吉尔吉斯	jejs
 吉尔吉斯斯坦	jejt
 久而久之	jejv
+就是了	jel
 接二连三	jels
 就是你	jen
 就是那样	jeny
@@ -25374,7 +25396,7 @@ I盘	ipj
 就是说啊	jeua
 就是这样	jevy
 就是我	jew
-就是行	jex
+就是像	jex
 敬而远之	jeyv
 简而言之	jeyv
 兼而有之	jeyv
@@ -26561,6 +26583,7 @@ I盘	ipj
 犴	jmqg
 捡起	jmqi
 建起	jmqi
+建群	jmqp
 毽球	jmqq
 健全	jmqr
 减去	jmqu
@@ -26644,7 +26667,7 @@ I盘	ipj
 箭	jmvq
 篯	jmvq
 节目主持人	jmvr
-间种	jmvs
+减重	jmvs
 建筑	jmvu
 静谧之中	jmvv
 金迷纸醉	jmvz
@@ -29168,6 +29191,7 @@ I盘	ipj
 荆门	jymf
 粳	jymg
 精密	jymi
+静谧	jymi
 檠	jymj
 经贸	jymk
 静脉	jyml
@@ -31460,6 +31484,7 @@ I盘	ipj
 看样子	kyz
 快走	kyzb
 筷子	kyzi
+快哉	kyzl
 快嘴	kyzv
 剋	kz
 剋	kzd
@@ -32875,6 +32900,7 @@ I盘	ipj
 缆索	ljso
 逻辑思维	ljsw
 流金岁月	ljsy
+垃圾桶	ljt
 篮坛	ljtj
 逻辑推理	ljtl
 蓝天	ljtm
@@ -33789,6 +33815,7 @@ I盘	ipj
 落雪	loxt
 落下	loxw
 落霞	loxw
+落下	loxw
 裸	loy
 落叶	loye
 酪	loyg
@@ -34302,10 +34329,11 @@ I盘	ipj
 理所当然	lsdr
 隆冬	lsds
 两三点钟	lsdv
-隆	lse
+聋	lse
 聋	lsel
 陇	lsel
 隆恩	lsen
+隆	lseu
 拢	lsf
 露宿风餐	lsfc
 龙凤	lsfg
@@ -37982,6 +38010,7 @@ I盘	ipj
 民怨沸腾	myft
 冥府	myfu
 没由分说	myfu
+每一分钟	myfv
 每一个	myg
 磨洋工	myg
 明沟	mygb
@@ -39118,8 +39147,9 @@ I盘	ipj
 闹	nk
 孬	nkb
 铙钹	nkbo
+那可不是	nkbs
+脑补	nkbu
 脑部	nkbu
-那可不是	nkbu
 闹病	nkby
 脑残	nkcj
 淖	nkd
@@ -42477,6 +42507,7 @@ I盘	ipj
 乞哀告怜	qagl
 弃暗投明	qatm
 全部	qb
+岂不	qb
 寝不安席	qbax
 前不巴村	qbbc
 前半部分	qbbf
@@ -47066,6 +47097,7 @@ I盘	ipj
 认祖归宗	rzgz
 如坐春风	rzif
 人走茶凉	rzil
+让自己	rzj
 人赃俱获	rzjh
 孺子可教	rzkj
 人走了	rzl
@@ -47208,8 +47240,10 @@ I盘	ipj
 似曾相识	scxu
 三次元	scy
 速度	sd
+3D	sd
 色胆包天	sdbt
 随地大小便	sddb
+3D打印	sddy
 似懂非懂	sdfd
 四大发明	sdfm
 斯德哥尔摩	sdgm
@@ -49115,6 +49149,8 @@ I盘	ipj
 脱不开身	tbku
 偷窥	tbkv
 头盔	tbkv
+太棒了	tbl
+填补了	tbl
 投料	tblc
 透亮	tbld
 头里	tbli
@@ -49123,6 +49159,7 @@ I盘	ipj
 投劳	tblk
 头脸	tblm
 透露	tblu
+头颅	tblu
 偷猎	tblx
 脱不了干系	tblx
 头领	tbly
@@ -50061,6 +50098,7 @@ I盘	ipj
 投机分子	tjfz
 弹	tjg
 探戈	tjge
+碳钢	tjgh
 探杆	tjgj
 田间管理	tjgl
 谈过	tjgo
@@ -53459,13 +53497,13 @@ T恤衫	txuj
 神州	ufvb
 是非之地	ufvd
 顺风转舵	ufvd
-身着	ufve
 伸着	ufve
 深圳	ufvf
 伸张	ufvh
 甚至	ufvi
 伸展	ufvj
 是非只为多开口	ufvk
+身着	ufvo
 身负重任	ufvr
 慎重	ufvs
 神主	ufvu
@@ -53585,8 +53623,8 @@ T恤衫	txuj
 生还	ughr
 省会	ughv
 盛会	ughv
-生化	ughw
 升华	ughw
+生化	ughw
 山高皇帝远	ughy
 生抽	ugib
 生辰	ugif
@@ -54388,6 +54426,7 @@ T恤衫	txuj
 石笋	uisp
 失算	uisr
 石松	uiss
+世俗	uisu
 时速	uisu
 十岁	uisv
 埘	uit
@@ -55111,6 +55150,7 @@ T恤衫	txuj
 山明水秀	umux
 赎买政策	umvc
 生米煮成熟饭	umvf
+生命周期	umvq
 盛名之下无虚士	umvu
 盛名之下	umvx
 生命之源	umvy
@@ -55719,7 +55759,7 @@ U盘	upj
 书铺	uupu
 竖屏	uupy
 书评	uupy
-上上签	uuq
+舒适区	uuq
 闪烁其词	uuqc
 舍身求法	uuqf
 深受其害	uuqh
@@ -55728,6 +55768,7 @@ U盘	upj
 书签	uuqm
 竖琴	uuqn
 实事求是	uuqu
+舒适区	uuqu
 抒情	uuqy
 顺手牵羊	uuqy
 舍生取义	uuqy
@@ -57455,8 +57496,8 @@ U盘	upj
 正方	vgfh
 拯	vgfi
 正反	vgfj
-政府	vgfu
 征服	vgfu
+政府	vgfu
 争购	vggb
 争光	vggd
 整个	vgge
@@ -61046,6 +61087,7 @@ U盘	upj
 围湖造田	whzt
 望族	whzu
 完成	wi
+未尝	wi
 无处安身	wiau
 龌龊腌臜	wiaz
 未尝不可	wibk
@@ -61972,6 +62014,7 @@ U盘	upj
 巫	wugc
 五个	wuge
 五更	wugg
+钨钢	wugh
 武钢	wugh
 无感	wugj
 诬告	wugk
@@ -63703,6 +63746,7 @@ U盘	upj
 修改修改	xgxg
 形槁心灰	xgxh
 下个星期	xgxq
+习惯于	xgy
 侠肝义胆	xgyd
 相关责任人	xgzr
 小鬼遭殃	xgzy
@@ -64069,8 +64113,8 @@ U盘	upj
 巇	xiug
 系上	xiuh
 习尚	xiuh
-西施	xiui
 稀释	xiui
+西施	xiui
 西山	xiuj
 嶲	xiuj
 稀少	xiuk
@@ -65052,6 +65096,7 @@ U盘	upj
 迅	xpzu
 寻租	xpzu
 修	xq
+下去	xq
 兴趣爱好	xqah
 兴趣盎然	xqar
 宿	xqb
@@ -67002,7 +67047,7 @@ U盘	upj
 牙花	yahw
 雅黑	yahz
 压	yai
-轧差	yaia
+轧差	yai a
 丫杈	yaia
 牙床	yaid
 押车	yaie
@@ -67361,6 +67406,7 @@ U盘	upj
 牖	ybpf
 友朋	ybpg
 幽僻	ybpi
+优盘	ybpj
 右派	ybpl
 诱骗	ybpm
 犹抱琵琶半遮面	ybpm
@@ -68139,6 +68185,7 @@ U盘	upj
 殃	yhdy
 泱	yhdy
 阳	yhe
+一会儿	yhe
 卬	yhea
 一挥而就	yhej
 一哄而起	yheq
@@ -69185,6 +69232,7 @@ U盘	upj
 淹死	yjsi
 一家三口	yjsk
 一己私利	yjsl
+一键三连	yjsl
 盐酸	yjsr
 演算	yjsr
 严肃	yjsu
@@ -69576,8 +69624,8 @@ U盘	upj
 咬牙	ykya
 要有	ykyb
 一口咬定	ykyd
-药业	ykye
 摇曳	ykye
+药业	ykye
 谣	ykyf
 鳐	ykyf
 摇漾	ykyh
@@ -72688,7 +72736,9 @@ U盘	upj
 自动化	zdh
 最大程度	zdid
 自动车床	zdii
+自动机	zdj
 自动检测	zdjc
+自动机	zdji
 自动检索	zdjs
 自动驾驶仪	zdjy
 最大可能	zdkn
@@ -73430,6 +73480,7 @@ U盘	upj
 造句	zkju
 灶具	zkju
 总会计师	zkju
+造假	zkjw
 造价	zkjw
 造假	zkjw
 遭劫	zkjx
@@ -74745,8 +74796,8 @@ U盘	upj
 啊对对	addv
 安道尔	ader
 奥地利	adli
-暗地里	adli
 按道理	adli
+暗地里	adli
 奥达曼	admj
 敖德萨	adsa
 爱迪生	adug
@@ -79089,7 +79140,6 @@ U盘	upj
 拿出来	nill
 农产品	nipn
 农场主	nivu
-泥浆泵	njbg
 能见度	njdu
 拈阄儿	njer
 农家肥	njfz
@@ -80234,9 +80284,7 @@ U盘	upj
 听不出	tbiu
 逃不出	tbiu
 听不见	tbjm
-太棒了	tble
 谈不来	tbll
-土八路	tblu
 天不怕	tbpa
 听不清	tbqy
 疼不疼	tbtg

@@ -8184,12 +8184,12 @@
 劰 lb
 励 ll
 劲 lg
-劳 cl
 劳 lb
-労 dl
+劳 cl
 労 lb
-劵 jl
+労 dl
 劵 lf
+劵 jl
 劶 lh
 劷 ly
 劷 yl
@@ -8621,8 +8621,8 @@
 可 dk
 台 sk
 叱 kb
-史 ad
 史 ki
+史 ad
 右 ku
 右 uk
 叴 jk
@@ -9266,8 +9266,8 @@
 嘔 kq
 嘕 ky
 嘖 kz
-嘗 dv
 嘗 xv
+嘗 dv
 嘘 kx
 嘙 kp
 嘚 kd
@@ -12459,8 +12459,8 @@
 怚 xq
 怛 xd
 怜 xl
-思 tx
 思 xt
+思 tx
 怞 xy
 怟 xd
 怠 xt
@@ -14556,8 +14556,8 @@
 暤 ou
 暥 oa
 暥 oy
-暦 io
 暦 ol
+暦 io
 暧 oa
 暨 dj
 暨 gd
@@ -14599,8 +14599,8 @@
 曃 ol
 曄 oh
 曅 oh
-曆 io
 曆 oh
+曆 io
 曇 oy
 曈 ot
 曉 oy
@@ -14788,8 +14788,8 @@
 杌 mw
 杍 mz
 李 mz
-杏 km
 杏 mk
+杏 km
 材 mc
 村 mc
 杒 mr
@@ -14798,6 +14798,7 @@
 杔 mt
 杕 md
 杖 mv
+杗 mw
 杗 wm
 杘 mu
 杘 um
@@ -16086,8 +16087,8 @@
 歱 vv
 歲 vx
 歳 vx
-歴 iv
 歴 vl
+歴 iv
 歵 vz
 歶 vy
 歶 yc
@@ -30050,6 +30051,7 @@
 順 yi
 頇 gy
 頇 yg
+須 py
 須 yp
 頉 vy
 頉 yv
@@ -31617,7 +31619,7 @@
 鵁 nj
 鵂 nx
 鵂 rn
-鵃 vn
+鵃 nv
 鵄 nv
 鵅 ng
 鵆 ni
@@ -32212,12 +32214,10 @@
 鼆 mm
 鼇 ma
 鼇 mw
-鼈 dh
 鼈 mb
 鼈 mw
-鼉 km
 鼉 ma
-鼉 sh
+鼉 km
 鼊 mb
 鼊 mx
 鼊 zh
@@ -32226,9 +32226,9 @@
 鼋 ym
 鼌 md
 鼌 om
+鼍 ma
 鼍 kd
 鼍 km
-鼍 ma
 鼎 oa
 鼎 od
 鼏 bd
@@ -97111,6 +97111,7 @@
 𱸹 mb
 𱸾 mh
 𱸿 pm
+𱹀 uj
 𱹂 dm
 𱹂 ma
 𱹅 em
