@@ -153,14 +153,14 @@ std_dzing:
 emoji:
   opencc_config: moran_emoji.json
   option_name: emoji
-  tips: none
+  tips: all
 
 chaifen:
   option_name: chaifen
   opencc_config: moran_chaifen.json
   tips: char
   show_in_comment: true
-  comment_form:
+  comment_format:
     - "xform/-/ /"
     - "xform/〕〔/｜/"
 
