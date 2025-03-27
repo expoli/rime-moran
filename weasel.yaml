@@ -234,6 +234,7 @@ preset_color_schemes:
     border_color: 0x444444
     hilited_text_color: 0x82e6ca
     hilited_back_color: 0x222222
+    hilited_label_color: 0x000000
     hilited_candidate_text_color: 0x000000
     hilited_candidate_back_color: 0x82e6ca
 
