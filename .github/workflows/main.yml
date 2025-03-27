@@ -1,7 +1,7 @@
 on: [push]
 jobs:
   simplified-moran:
-    if: ${{ github.repository == 'rimeinn/rime-moran' }}
+    # if: ${{ github.repository == 'rimeinn/rime-moran' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
