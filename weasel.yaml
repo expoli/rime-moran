@@ -12,14 +12,23 @@ config_version: "2024-05-14"
 # [app_options]
 # 针对特定应用的设置
 app_options:
+  cmd.exe:
+    ascii_mode: true
+    ascii_punct: true
+  idea64.exe:
+    ascii_mode: false
+    ascii_punct: true
+  Code.exe:
+    ascii_mode: false
+    ascii_punct: true
   firefox.exe:
     inline_preedit: true   # 行内显示预编辑区：规避 <https://github.com/rime/weasel/issues/946>
   # cmd.exe:               # 带 .exe 的进程名：Weasel 15.0 及之前版本须小写; PR #1049 合并后释出的版本大小写不敏感
   #   ascii_mode: true     # 英文模式
   # conhost.exe:
   #   ascii_mode: true
-  # windowsterminal.exe:
-  #   ascii_mode: true
+  windowsterminal.exe:
+    ascii_mode: true
   # wt.exe:
   #   ascii_mode: true
   # pwsh.exe:
@@ -52,8 +61,8 @@ style:
   label_font_face: "Microsoft YaHei"       # 标签字体
   comment_font_face: "Microsoft YaHei"     # 注释字体
   font_point: 14                           # 全局字体字号
-  label_font_point: 14                     # 标签字体字号，不设定 fallback 到 font_point
-  comment_font_point: 13                   # 注释字体字号，不设定 fallback 到 font_point
+  label_font_point: 11                     # 标签字体字号，不设定 fallback 到 font_point
+  comment_font_point: 11                   # 注释字体字号，不设定 fallback 到 font_point
 
   inline_preedit: true                     # 行内显示预编辑区：true；false
   preedit_type: composition                # 预编辑区内容：composition（编码）； preview（选中的候选）；preview_all（全部候选）
@@ -77,7 +86,7 @@ style:
   hover_type: none                         # 鼠标在候选窗口悬停时：none（无动作）；hilite（选中鼠标下的候选）；semi_hilite（高亮鼠标下的候选）
 
   paging_on_scroll: true                   # 在候选窗口上滑动滚轮的行为：true（翻页）；false （选中下一个候选）
-  click_to_capture: false                  # 鼠标点击候选项，创建截图：true；false
+  click_to_capture: true                   # 鼠标点击候选项，创建截图：true；false
 
   layout:
     baseline: 0                            # 字号百分比，与 linespacing 一同设置可解决字体跳动问题，设置为 0 为禁用
@@ -96,7 +105,7 @@ style:
     hilite_padding: 8                      # 高亮区域和内部文字的间距，影响高亮区域大小
     # hilite_padding_x: 8                  # 高亮区域和内部文字的左右间距，如无特殊指定则依 hilite_padding 设置
     # hilite_padding_y: 8                  # 高亮区域和内部文字的上下间距，如无特殊指定则依 hilite_padding 设置
-    shadow_radius: 0                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
+    shadow_radius: 5                       # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
     shadow_offset_x: 4                     # 阴影左右偏移距离
     shadow_offset_y: 4                     # 阴影上下偏移距离
     corner_radius: 8                       # 候选窗口圆角半径
@@ -228,15 +237,35 @@ preset_color_schemes:
 
   lost_temple:
     name: 孤寺／Lost Temple
-    author: 佛振 <chen.sst@gmail.com>, based on ir_black
-    text_color: 0xe8f3f6
-    back_color: 0x444444
-    border_color: 0x444444
-    hilited_text_color: 0x82e6ca
-    hilited_back_color: 0x222222
-    hilited_label_color: 0x000000
-    hilited_candidate_text_color: 0x000000
-    hilited_candidate_back_color: 0x82e6ca
+    author: 糖醋鱼 <me@expoli.tech>, 佛振 <chen.sst@gmail.com>, based on ir_black
+    # 默认配色
+    color_format: abgr                       # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
+    text_color: 0xe8f3f6                     # 文字
+    shadow_color: 0x55444444                 # 阴影
+    label_color: 0xffffff                    # 标签
+    comment_text_color: 0xe8f3f6             # 注释
+    border_color: 0x444444                   # 边框
+    back_color: 0x444444                     # 背景
+    # 普通候选项配色
+    candidate_back_color: 0x444444           # 背景
+    candidate_border_color: 0x444444         # 边框
+    # candidate_shadow_color: 0x444444       # 阴影
+    candidate_text_color: 0xffffff           # 文字
+    # 编码区域配色
+    hilited_text_color: 0x82e6ca             # 文字
+    hilited_back_color: 0x222222             # 背景
+    # hilited_shadow_color: 0xff888888         # 阴影
+    # 选中的候选区域配色
+    hilited_mark_color: 0x000000             # 标签前的标记
+    hilited_label_color: 0x000000            # 标签
+    hilited_comment_text_color: 0x000000     # 注释
+    hilited_candidate_text_color: 0x000000   # 文字
+    hilited_candidate_border_color: 0x444444 # 边框
+    hilited_candidate_back_color: 0x82e6ca   # 背景
+    # hilited_candidate_shadow_color: 0xff888888       # 阴影
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    # nextpage_color: 0x000000               # 下一页
+    # prevpage_color: 0x000000               # 上一页
 
   dark_temple:
     name: 暗堂／Dark Temple
