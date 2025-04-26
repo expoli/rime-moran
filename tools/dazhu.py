@@ -37,7 +37,7 @@ class Table:
             except KeyError as e:
                 print('# 無法編碼 %s : %s' % (word, str(e)))
                 return
-        if self.has_quick_code(word, code):
+        if len(word) == 1 and self.has_quick_code(word, code):
             # print('讓全', word, code)
             w = -1
         self.w2c[word].append(code)
@@ -132,12 +132,12 @@ def main(args):
             table.add(char, 'olf' + code)
 
     # bihua
-    with open('/Library/Input Methods/Squirrel.app/Contents/SharedSupport/stroke.dict.yaml') as f:
-        for l in f:
-            matches = re.findall(r'(\w+)	([a-z]+)', l)
-            if not matches: continue
-            char, code = matches[0]
-            table.add(char, 'obh' + code)
+    # with open('/Library/Input Methods/Squirrel.app/Contents/SharedSupport/stroke.dict.yaml') as f:
+    #     for l in f:
+    #         matches = re.findall(r'(\w+)	([a-z]+)', l)
+    #         if not matches: continue
+    #         char, code = matches[0]
+    #         table.add(char, 'obh' + code)
 
     # 拆分表
     with open('../opencc/moran_chaifen.txt', 'r') as f:
